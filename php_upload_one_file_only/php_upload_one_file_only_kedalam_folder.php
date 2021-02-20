@@ -4,7 +4,7 @@ $mysqli = new mysqli('localhost','root','','testing');
 
 if(isset($_POST["submit"])) {
     $file = $_FILES['file'];
-    // print_r($file);
+    
     $fileName =  $file['name'];
     $fileTmpName =  $file['tmp_name'];
     $fileSize =  $file['size'];

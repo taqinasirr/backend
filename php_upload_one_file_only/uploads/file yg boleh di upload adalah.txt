@@ -1,0 +1,11 @@
+file2 yang boleh dimasukkan ke dalam folder uploads ni adalah:
+
+pdf
+jpg
+jpeg
+png
+doc
+docx
+xls
+xlsx
+

@@ -7,21 +7,18 @@ if(isset($_POST["superAdmin"])) {
         $_SESSION["username"] = "namasuperAdmin";
         $_SESSION["kodKategori"] = 1;
         $_SESSION["kodCawangan"] = "BG";
-        header("Refresh:0");
 }
 
 if(isset($_POST["admin"])) {
         $_SESSION["username"] = "namaAdmin";
         $_SESSION["kodKategori"] = 2;
         $_SESSION["kodCawangan"] = "IP";
-        header("Refresh:0");
 }
 
 if(isset($_POST["user"])) {
         $_SESSION["username"] = "namauser";
         $_SESSION["kodKategori"] = 3;
         $_SESSION["kodCawangan"] = "HQ";
-        header("Refresh:0");
 }
 
 
